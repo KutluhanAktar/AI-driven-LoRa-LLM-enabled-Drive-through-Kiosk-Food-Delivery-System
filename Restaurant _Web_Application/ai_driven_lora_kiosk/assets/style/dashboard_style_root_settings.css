@@ -1,0 +1,139 @@
+:root{
+	/* Color variables. */
+	--c_llm_int_con_bg: rgba(36,36,38,.88);
+	--c_llm_int_bg: rgba(72,72,74); --c_llm_int_bor: rgb(0,137,50);
+	
+	--c_setting_llm_bg: #8c8e5a; --c_setting_llm_con_bg: #006dbd; --c_setting_llm_con_bor: #73cebd; --c_setting_llm_con_h2: #ffefd6;
+	--c_setting_llm_div_bg: #efae7b; --c_setting_llm_div_label: #ffefd6;
+	--c_setting_llm_div_select_bg: #f7a229; --c_setting_llm_div_select_text: #2A4D70;
+	--c_setting_llm_div_select_option_bg: #f7e731;
+	
+	--c_sign_nav_con_bg: #318aa5; --c_sign_nav_con_bor: #9ce3bd;
+	--c_sign_nav_but_bg: #efae7b; --c_sign_nav_but_bor: #2A4D70; --c_sign_nav_but_text: #2A4D70;
+	--c_sign_nav_but_bg_s: #f7a229; --c_sign_nav_but_bg_e: #f7e731;
+	
+	--c_sign_content_h2: #323850;
+	--c_sign_content_but_bg: #73cebd; --c_sign_content_but_bg_s: #9ce3bd;
+	--c_sign_content_but_bor: #ffefd6; --c_sign_content_but_text: #ffefd6;
+	--c_sign_content_line_bg: #efae7b;
+	--c_sign_content_input_bg: #408DEE; --c_sign_content_input_text: #F0F0E8; --c_sign_content_input_ph: #F0F0E8;
+	--c_sign_content_label: #F0F0E8;
+	--c_sign_content_radio_con_bg: #EEA94F; --c_sign_content_radio_div_bg: #2A4D70; --c_sign_content_radio_label_p: #E2F1F6; --c_sign_content_radio_label_s: #F5C274;
+	
+	--c_user_info_h2_bg: #b52419; --c_user_info_h2_text: #ffefd6;
+	--c_user_info_line_bg: #de4542; --c_user_info_p: #ffefd6;
+	--c_user_info_span_bg: #d65994; --c_user_info_span_text: #ffefd6;
+	--c_user_info_textarea_bg: #f7e731; --c_user_info_textarea_text: #2A4D70; --c_user_info_textarea_focus: #2A4D70;
+	--c_user_info_select_bg: #b52419; --c_user_info_select_text: #ffefd6;
+	--c_user_info_select_option_bg: #d65994;
+	--c_user_info_but_bg: #5aca31; --c_user_info_but_bg_s: #7bbe3a; --c_user_info_but_bor: #ffefd6; --c_user_info_but_text: #ffefd6;
+	--c_user_info_but_log_bg: #d65994; --c_user_info_but_log_bg_s: #b52419;
+	
+	--c_menu_cont_bg: rgb(36,36,38); --c_menu_header_bg: rgb(68,68,70);
+	--c_menu_header_h2: rgb(235,235,240); --c_menu_header_h2_logo_bor: #5aca31; --c_menu_header_h2_s_logo_bor: #f7e731;
+	--c_menu_card_con_bg: rgb(99,99,102);
+	--c_menu_card_bg: #738e52; --c_menu_card_drop_s: #73cebd; --c_menu_card_drop_s_s: #9ce3bd;
+	--c_menu_card_h2_bg: #5aca31; --c_menu_card_h2_text: #ffefd6; --c_menu_card_h2_bor: #ffefd6;
+	--c_menu_card_p: #73cebd; --c_menu_card_p_def: #f7a229; --c_menu_card_span: #9ce3bd;
+	--c_menu_card_but_bg: #efae7b; --c_menu_card_but_bor: #ffefd6; --c_menu_card_but_text: #ffefd6; --c_menu_card_but_span: #de4542;
+	--c_menu_card_s_con_bg: rgb(124,124,128);
+	--c_menu_card_s_bg: #f7a229; --c_menu_card_s_drop_s: rgb(176,47,194); --c_menu_card_s_drop_s_s: rgb(219,52,242);
+	--c_menu_card_s_h2_bg: #f7e731; --c_menu_card_s_h2_text: #2A4D70; --c_menu_card_s_h2_bor: #2A4D70;
+	--c_menu_card_s_p: rgb(176,47,194); --c_menu_card_s_p_def: rgb(30,110,244); --c_menu_card_s_span: rgb(219,52,242);
+	--c_menu_card_s_but_bg: #006dbd; --c_menu_card_s_but_bor: #9ce3bd; --c_menu_card_s_but_text: #9ce3bd; --c_menu_card_s_but_span: #E2F1F6;
+	
+	
+	/* Element variables. */
+	--llm_interface_bor: .8em;
+	--llm_interface_logo_s: 350px;
+	
+    --setting_container_w: 30em; --setting_container_h: 100vh;
+	
+    --setting_llm_w: 95%; --setting_llm_h: 10em;
+	--setting_llm_f_s: 1.2em; --setting_llm_mar: .6em;
+	
+	--setting_sign_cont_w: 95%; --setting_sign_cont_h: auto;
+	--setting_sign_nav_w: 95%; --setting_sign_nav_h: 5em;
+	--setting_sign_form_w: 90%; --setting_sign_form_h: auto;
+	--setting_sign_form_f_s: .9em; --setting_sign_form_line_h: calc(var(--setting_sign_form_f_s) * 2);
+	
+	--setting_user_info_w: 95%; --setting_user_info_h: auto;
+	--setting_user_info_f_s: 1em; --setting_user_info_line_h: calc(var(--setting_user_info_f_s) * 2);
+	--setting_user_info_line_mar: .6em;
+	
+	--menu_container_w: calc(100% - var(--setting_container_w)); --menu_container_h: var(--setting_container_h);
+	--menu_container_pad: 10px;
+	
+	--menu_container_header_w: 100%; --menu_container_header_h: 5em;
+	--menu_container_header_f_s: 1.5em;
+	--menu_container_header_logo_w: calc(var(--menu_container_header_f_s) * 2); --menu_container_header_logo_h: var(--menu_container_header_logo_w);
+	--menu_container_header_logo_pad: .5em;
+	
+	--menu_container_items_w: 300px; --menu_container_items_h: 600px; --menu_container_items_gap: 1em;
+	--menu_container_items_con_w: 100%; --menu_container_items_con_h: calc(var(--menu_container_items_h) + (var(--menu_container_items_gap) * 4));
+	
+	--menu_img_w: var(--menu_container_items_w); --menu_img_h: var(--menu_img_w);
+	--menu_desc_w: 100%; --menu_desc_h: calc(var(--menu_container_items_h) - var(--menu_img_h));
+	--menu_desc_h2_f_s: 3em; --menu_desc_p_f_s: calc(var(--menu_desc_h2_f_s) / 4);
+	--menu_desc_but_f_s: calc(var(--menu_desc_h2_f_s) / 3);
+	
+	
+    /* Custom easing transition variables. */
+	--elastic-easing: linear(
+		0, 0.2178 2.1%, 0.862 6.46%, 1.1144 8.49%, 1.2959 10.7%, 1.3463 11.81%,
+		1.3705 12.94%, 1.3726, 1.3643 14.48%, 1.3151 16.2%, 1.0317 21.81%,
+		0.941 24.01%, 0.8912 25.91%, 0.877 26.86%, 0.8694 27.84%, 0.8698 29.21%,
+		0.8824 30.71%, 0.9066 32.36%, 0.981 36.36%, 1.0122 38.33%, 1.0357,
+		1.046 42.71%, 1.0461 44.14%, 1.0416 45.7%, 0.9961 53.26%, 0.9877,
+		0.9839 57.54%, 0.9853 60.71%, 1.0012 68.14%, 1.0056 72.24%, 0.9981 86.66%, 1
+	);
+
+	--bounce-easing: linear(
+		0 0% 0.7%, 0.001 0.8% 1.3%, 0.002 1.4% 1.7%, 0.003 1.8% 2.1%, 0.004, 0.004,
+		0.005, 0.005, 0.006, 0.007, 0.007, 0.008, 0.009, 0.01, 0.01, 0.011, 0.012,
+		0.013, 0.014, 0.015, 0.016, 0.017, 0.018, 0.019, 0.02, 0.021, 0.022, 0.023,
+		0.024, 0.026, 0.027, 0.028, 0.03, 0.031, 0.032, 0.034, 0.035, 0.037,
+		0.038 7.1%, 0.041, 0.044 7.7%, 0.046, 0.048, 0.05, 0.051 8.2%, 0.055, 0.059,
+		0.063, 0.066, 0.071, 0.075, 0.079, 0.084, 0.088, 0.093, 0.098, 0.103, 0.108,
+		0.113, 0.118, 0.124, 0.129, 0.135, 0.141, 0.147, 0.153, 0.159, 0.165, 0.172,
+		0.178, 0.185, 0.191, 0.198, 0.205, 0.212, 0.22, 0.227, 0.235, 0.242, 0.25,
+		0.258, 0.266, 0.274, 0.282, 0.291, 0.299, 0.308, 0.317, 0.325, 0.335, 0.343,
+		0.353, 0.362, 0.371, 0.381, 0.391, 0.4, 0.41, 0.42, 0.431, 0.441, 0.451,
+		0.462, 0.473, 0.483, 0.494, 0.505, 0.516, 0.528, 0.539, 0.551, 0.563, 0.574,
+		0.586, 0.598, 0.61, 0.622, 0.635, 0.647, 0.66, 0.673, 0.685, 0.699, 0.712,
+		0.725, 0.738, 0.751, 0.765, 0.779, 0.793, 0.806, 0.821, 0.835, 0.849, 0.864,
+		0.879, 0.893, 0.908, 0.923, 0.938, 0.953, 0.969, 0.984, 1, 0.992, 0.985,
+		0.977, 0.97, 0.962, 0.955, 0.948, 0.941, 0.935, 0.928, 0.922, 0.915, 0.909,
+		0.903, 0.897, 0.891, 0.885, 0.879, 0.874, 0.868, 0.863, 0.858, 0.853, 0.848,
+		0.843, 0.838, 0.834, 0.829, 0.825, 0.821, 0.817, 0.813, 0.809, 0.805,
+		0.801 46.3%, 0.8, 0.798, 0.794, 0.791, 0.788, 0.787, 0.785, 0.784, 0.782,
+		0.781, 0.78, 0.778, 0.777, 0.776, 0.774, 0.773, 0.772, 0.771, 0.77, 0.769,
+		0.768, 0.767, 0.766, 0.765, 0.764, 0.763, 0.762, 0.761, 0.76, 0.76, 0.759,
+		0.758, 0.757, 0.757, 0.756, 0.756, 0.755, 0.754, 0.754, 0.753 52.4% 52.7%,
+		0.752 52.8% 53.1%, 0.751 53.3% 53.7%, 0.75 53.8% 55.3%, 0.751 55.4% 55.8%,
+		0.752 56% 56.2%, 0.753 56.4% 56.7%, 0.754, 0.754, 0.755, 0.755, 0.756,
+		0.757, 0.757, 0.758, 0.759, 0.76, 0.76, 0.761, 0.762, 0.763, 0.764, 0.765,
+		0.766, 0.767, 0.768, 0.769, 0.77, 0.771, 0.772, 0.773, 0.774, 0.776, 0.777,
+		0.778, 0.78, 0.781, 0.782, 0.784, 0.785, 0.787, 0.788 61.6%, 0.791,
+		0.794 62.2%, 0.796, 0.798, 0.801, 0.805, 0.809, 0.813, 0.817, 0.821, 0.825,
+		0.829, 0.834, 0.838, 0.843, 0.848, 0.852, 0.857, 0.863, 0.868, 0.873, 0.879,
+		0.885, 0.891, 0.897, 0.903, 0.909, 0.915, 0.921, 0.928, 0.935, 0.941, 0.948,
+		0.955, 0.962, 0.97, 0.977, 0.985, 0.992, 1, 0.996, 0.992, 0.989, 0.985, 0.982,
+		0.981, 0.979 74.4%, 0.976 74.7%, 0.974, 0.973, 0.971, 0.97, 0.968, 0.967,
+		0.966, 0.965, 0.963, 0.962, 0.961, 0.96, 0.959, 0.957, 0.956, 0.955, 0.954,
+		0.953, 0.952, 0.951, 0.95, 0.949, 0.949, 0.948, 0.947, 0.946, 0.946, 0.945,
+		0.944, 0.944, 0.943, 0.942, 0.942, 0.941, 0.941, 0.94 79.8% 80.1%,
+		0.939 80.2% 80.5%, 0.938 80.7% 83%, 0.939 83.1% 83.4%, 0.94 83.5% 83.8%,
+		0.941, 0.941, 0.942, 0.942, 0.943, 0.944, 0.944, 0.945, 0.945, 0.946, 0.947,
+		0.948, 0.949, 0.949, 0.95, 0.951, 0.952, 0.953, 0.954, 0.955, 0.956, 0.957,
+		0.958, 0.959, 0.961, 0.962, 0.963, 0.964, 0.966, 0.967, 0.968, 0.97, 0.971,
+		0.973, 0.974, 0.976, 0.977, 0.979, 0.982 89.5%, 0.984, 0.985, 0.987, 0.989,
+		0.992, 0.996, 1 90.9%, 0.999, 0.998, 0.997, 0.996, 0.995, 0.995, 0.994, 0.993,
+		0.992, 0.992, 0.991, 0.99, 0.99, 0.989, 0.989, 0.988, 0.988,
+		0.987 93.5% 93.7%, 0.986 93.9% 94.2%, 0.985 94.3% 95%, 0.984 95.2% 95.7%,
+		0.985 95.9% 96.6%, 0.986 96.7% 97%, 0.987 97.1% 97.4%, 0.988, 0.988,
+		0.989, 0.989, 0.99, 0.99, 0.991, 0.992, 0.992, 0.993, 0.994, 0.995, 0.995,
+		0.996, 0.997, 0.998, 0.999, 1
+	); 
+	
+}

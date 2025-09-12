@@ -1,0 +1,52 @@
+{
+	{
+		"category": "Burgers",
+	    "items": [
+			{"name": "Hamburger", "price": "12"},
+			{"name": "Cheeseburger", "price": "10"},
+			{"name": "Veggie", "price": "9"}
+		]
+	},
+	{
+		"category": "Mexican",
+	    "items": [
+			{"name": "Taco", "price": "12"},
+			{"name": "Burrito", "price": "12"},
+			{"name": "Tamales", "price": "12"}
+		]
+	},
+	{
+		"category": "Italian",
+	    "items": [
+			{"name": "Lasagna", "price": "12"},
+			{"name": "Risotto", "price": "15"},
+			{"name": "Pizza", "price": "20"}
+		]
+	},
+	{
+		"category": "Seafood",
+	    "items": [
+			{"name": "Shrimp Tempura", "price": "8"},
+			{"name": "Salmon", "price": "22"},
+			{"name": "Lobster", "price": "15"}
+		]
+	},
+	{
+		"category": "Side Dishes",
+	    "items": [
+			{"name": "French Fries", "price": "2"},
+			{"name": "Onion Rings", "price": "5"},
+			{"name": "Chicken Nuggets", "price": "6"}
+		]
+	},
+	{
+		"category": "Desserts",
+	    "items": [
+			{"name": "Brownie", "price": "3"},
+			{"name": "Cheesecake", "price": "4"},
+			{"name": "Carrot Cake", "price": "4"}
+		]
+	}
+}
+		
+		
