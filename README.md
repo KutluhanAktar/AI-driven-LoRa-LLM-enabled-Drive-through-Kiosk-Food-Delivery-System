@@ -11,9 +11,9 @@ A research project on developing a full-fledged drive-through kiosk and food del
 # Inspect the project tutorial on:
 
 - **[kutluhanaktar.com](https://www.kutluhanaktar.com/projects/AI_driven_LoRa_LLM_enabled_Drive_through_Kiosk_Food_Delivery_System/)**
-- **[Hackster]()**
-- **[Instructables]()**
-- **[Hackaday]()**
+- **[Hackster](https://www.hackster.io/kutluhan-aktar/ai-driven-lora-llm-enabled-kiosk-food-delivery-system-317b1e)**
+- **[Instructables](https://www.instructables.com/AI-driven-LoRa-LLM-enabled-Drive-through-Kiosk-Foo/)**
+- **[Hackaday](https://hackaday.io/project/204033-ai-driven-lora-llm-enabled-kiosk-food-delivery)**
 
 <img width="1008" height="1275" alt="PCB_customer_end_4" src="https://github.com/user-attachments/assets/bbf28248-f443-4812-9c7a-7642b8f2bcd5" />
 
